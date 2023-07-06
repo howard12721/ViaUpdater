@@ -1,0 +1,4 @@
+name: ViaUpdater
+version: '${project.version}'
+main: jp.xhw.viaupdater.ViaUpdater
+api-version: 1.19
