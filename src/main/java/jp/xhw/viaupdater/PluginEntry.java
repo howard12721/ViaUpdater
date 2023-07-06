@@ -1,4 +1,4 @@
-package jp.xhw.viaupdater.plugin;
+package jp.xhw.viaupdater;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

@@ -1,6 +1,5 @@
 package jp.xhw.viaupdater;
 
-import jp.xhw.viaupdater.plugin.PluginEntry;
 import jp.xhw.viaupdater.provider.IPluginProvider;
 import jp.xhw.viaupdater.provider.impl.GithubPluginProvider;
 import org.bukkit.Bukkit;
