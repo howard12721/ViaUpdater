@@ -2,6 +2,7 @@ package jp.xhw.viaupdater;
 
 import jp.xhw.viaupdater.provider.IPluginProvider;
 import jp.xhw.viaupdater.provider.impl.GithubPluginProvider;
+import jp.xhw.viaupdater.data.PluginEntry;
 import org.bukkit.Bukkit;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
@@ -18,7 +19,7 @@ import java.util.function.Predicate;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
 
-public final class ViaUpdater extends JavaPlugin {
+public final class ViaUpdaterPlugin extends JavaPlugin {
 
     private boolean updated = false;
 

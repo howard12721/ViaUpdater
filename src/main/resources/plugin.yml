@@ -1,4 +1,4 @@
 name: ViaUpdater
 version: '${project.version}'
-main: jp.xhw.viaupdater.ViaUpdater
+main: jp.xhw.viaupdater.ViaUpdaterPlugin
 api-version: 1.19
