@@ -27,6 +27,7 @@ public final class ViaUpdaterPlugin extends JavaPlugin {
     public void onEnable() {
         updatePlugin("ViaVersion", new GithubPluginProvider("ViaVersion", "ViaVersion"));
         updatePlugin("ViaBackwards", new GithubPluginProvider("ViaVersion", "ViaBackwards"));
+        updatePlugin("ViaRewind", new GithubPluginProvider("ViaVersion", "ViaRewind"));
         if (updated) Bukkit.getScheduler().runTask(this, () -> getServer().spigot().restart());
     }
 
